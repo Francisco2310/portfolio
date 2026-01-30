@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen;
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+@theme {
+
+  --color-primary: #2badee;
+  --color-background-light: #f6f7f8;
+  --color-background-dark: #0a0a0a;
+  --color-card-dark: #121212;
+  --color-code-bg: #1e1e1e;
+
+
+  --font-display: "Manrope", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+@utility text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  color: transparent;
+}
+
+@utility code-glow {
+  text-shadow: 0 0 15px rgba(43, 173, 238, 0.3);
+}
+
+body {
+    background-color: var(--color-background-dark);
+    color: white;
+    font-family: var(--font-display);
+    scroll-behavior: smooth;
+}
