@@ -13,7 +13,7 @@
     id: 2,
     nome: 'Projeto Aysha',
     link: 'https://aysha.vercel.app',
-    imagem: 'https://seusite.com/print-aysha.jpg',
+    imagem: 'projects/couplesite.png',
     github: 'https://github.com/franciscojpaulo/feira-ciencias',
     descricao: 'Plataforma de e-commerce focada em produtos sustentáveis e ecológicos, promovendo um estilo de vida consciente.'
   }
@@ -30,7 +30,6 @@
       <h2 class="text-slate-900 dark:text-white text-4xl md:text-5xl font-bold tracking-tight">Technical Portfolio</h2>
       </div>
       <div class="flex items-center gap-4">
-      <span class="text-slate-500 dark:text-slate-500 font-mono text-sm">Sort by: recent</span>
       </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">

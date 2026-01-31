@@ -1,7 +1,9 @@
 <script setup>
+import IconGithub from './icons/IconGithub.vue'
 const name = "Francisco Ribeiro"
 const role = "Full Stack Dev"
-const bio = "Construindo aplicações web robustas e performáticas com foco em código limpo e experiência do desenvolvedor."
+const bio = "Specialized in building high-performance full-stack applications that help businesses scale. I focus on delivering robust, production-ready code that prioritizes your project's success."
+const subtitle = "Turning Your Ideas into Scalable Digital Products."
 </script>
 
 <template>
@@ -20,7 +22,7 @@ const bio = "Construindo aplicações web robustas e performáticas com foco em 
         <h1 class="text-slate-900 dark:text-white text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tighter">
           {{ name }} <br/>
           <span class="text-primary">{{ role }}</span><br/>
-          <span class="text-slate-400 dark:text-slate-600 text-3xl md:text-5xl block mt-2">Architecting Scalable Solutions.</span>
+          <span class="text-slate-400 dark:text-slate-600 text-3xl md:text-5xl block mt-2">{{ subtitle }}</span>
         </h1>
         
         <p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl font-light max-w-xl leading-relaxed">
@@ -32,7 +34,7 @@ const bio = "Construindo aplicações web robustas e performáticas com foco em 
             <span class="material-symbols-outlined mr-2 text-sm">code</span> View Projects
           </a>
           <a class="flex items-center justify-center rounded-lg h-12 px-6 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm font-bold hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors" href="https://github.com" target="_blank">
-            <span class="material-symbols-outlined mr-2 text-sm">terminal</span> GitHub
+          <IconGithub class="size-5 fill-current mr-2" /> GitHub Profile
           </a>
         </div>
       </div>
