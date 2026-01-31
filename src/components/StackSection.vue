@@ -4,6 +4,11 @@ import Stack from './Stack.vue'
 const techNames = [
   'JavaScript',
   'Python',
+  'Vue.js',
+  'PostgreSQL',
+  'Redis',
+  'Flask',
+  'Docker'
 ]
 
 </script>
@@ -14,7 +19,7 @@ const techNames = [
       <span class="text-primary font-mono font-bold uppercase tracking-widest text-xs mb-4 block">Capabilities</span>
       <h2 class="text-slate-900 dark:text-white text-4xl md:text-5xl font-bold tracking-tight mb-16">The Tech Stack</h2>
       
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+      <div class="flex flex-wrap justify-center gap-8 md:gap-24">
         <Stack v-for="tech in techNames" :key="tech" :name="tech" />
       </div>
       

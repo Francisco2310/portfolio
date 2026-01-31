@@ -2,12 +2,23 @@
 import { computed } from 'vue'
 import IconJS from './icons/IconJS.vue'
 import IconPython from './icons/IconPython.vue'
+import IconVue from './icons/IconVue.vue'
+import IconPostgres from './icons/IconPostgres.vue'
+import IconRedis from './icons/IconRedis.vue'
+import IconFlask from './icons/IconFlask.vue'
+import IconDocker from './icons/IconDocker.vue'
+
 const props = defineProps(['name'])
 
 const iconComponent = computed(() => {
   const icons = {
     'JavaScript': IconJS,
     'Python': IconPython,
+    'Vue.js': IconVue,
+    'PostgreSQL': IconPostgres,
+    'Redis': IconRedis,
+    'Flask': IconFlask,
+    'Docker': IconDocker
   }
   return icons[props.name] || IconJS 
 })
