@@ -2,6 +2,7 @@
 import Hero from './components/Hero.vue'
 import Header from './components/Header.vue';
 import ProjectSection from './components/ProjectSection.vue';
+import StackSection from './components/StackSection.vue';
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import ProjectSection from './components/ProjectSection.vue';
   <main class="pt-24">
     <Hero />
     <ProjectSection />
+    <StackSection />
   </main>
 </template>
