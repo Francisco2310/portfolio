@@ -9,7 +9,7 @@ const { mostrarToast, copiar } = useCopyEmail();
 <div class="flex items-center gap-3">
 <div class="size-6 text-primary">
 </div>
-<h2 class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em] font-mono">&lt;FR /&gt;</h2>
+<h2 class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-[-0.015em] font-mono">&lt;FR/&gt;</h2>
 </div>
 <div class="flex flex-1 justify-end gap-12">
 <nav class="hidden md:flex items-center gap-10">

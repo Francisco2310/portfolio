@@ -4,18 +4,18 @@
   {
     id: 1,
     nome: 'Feira de Ciências',
-    link: 'https://feira-ciencias.vercel.app',
-    imagem: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDxJk_s8YDOuRnXjil_FLFudNi_k5s9ZMHg20W2nlh6bNxn6w-pIif9C9ClmLPOcpsGf1VX_ovDbyFIf0RRbLUEfj4NitUJqnRrtsHawECleI8U6gOV9VqOcXE1f5I6empoBD1CkSGI0CZWRARPQKdEDTpaWxfJP_iTB_DFhD5dgy_wVDYji1vUVOPZsWmBGR3GUSn4V7m4sP6ZlSCFKNTFR5Nz_pZX9oLe7bMS9-Wh3lo9mmiRVIZs_xOoRHrubzshWgppZJG3Y5si',
-    descricao: 'Plataforma utilizada pela escola Estadual de Passa Tempo - MG para gerenciar a feira de ciências anual.',
-    github: 'https://github.com/franciscojpaulo/feira-ciencias'
+    link: 'https://feira-gray.vercel.app',
+    imagem: 'projects/Sciencefair.png',
+    descricao: 'Science Fair showcase site featuring a serverless comment system via GitHub API and dynamic particle animations.',
+    github: 'https://github.com/Francisco2310/Feira'
   },
   {
     id: 2,
-    nome: 'Projeto Aysha',
-    link: 'https://aysha.vercel.app',
+    nome: 'Couple Site',
+    link: 'https://site-aysha.vercel.app',
     imagem: 'projects/couplesite.png',
-    github: 'https://github.com/franciscojpaulo/feira-ciencias',
-    descricao: 'Plataforma de e-commerce focada em produtos sustentáveis e ecológicos, promovendo um estilo de vida consciente.'
+    github: 'https://github.com/Francisco2310/siteAysha',
+    descricao: 'Artistic focused site made for a gift to a couple, featuring animations and responsive design.'
   }
 ]
 

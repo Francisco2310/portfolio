@@ -33,7 +33,7 @@ const subtitle = "Turning Your Ideas into Scalable Digital Products."
           <a class="flex items-center justify-center rounded-lg h-12 px-6 bg-slate-900 dark:bg-white text-white dark:text-background-dark text-sm font-bold transition-all hover:bg-primary dark:hover:bg-primary dark:hover:text-white" href="#work">
             <span class="material-symbols-outlined mr-2 text-sm">code</span> View Projects
           </a>
-          <a class="flex items-center justify-center rounded-lg h-12 px-6 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm font-bold hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors" href="https://github.com" target="_blank">
+          <a class="flex items-center justify-center rounded-lg h-12 px-6 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm font-bold hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors" href="https://github.com/Francisco2310" target="_blank">
           <IconGithub class="size-5 fill-current mr-2" /> GitHub Profile
           </a>
         </div>

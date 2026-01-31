@@ -4,10 +4,10 @@ import Stack from './Stack.vue'
 const techNames = [
   'JavaScript',
   'Python',
+  'Flask',
   'Vue.js',
   'PostgreSQL',
   'Redis',
-  'Flask',
   'Docker'
 ]
 
