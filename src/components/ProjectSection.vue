@@ -5,7 +5,7 @@
     id: 1,
     nome: 'Feira de Ciências',
     link: 'https://feira-gray.vercel.app',
-    imagem: 'projects/Sciencefair.png',
+    imagem: 'projects/Sciencefair.webp',
     descricao: 'Science Fair showcase site featuring a serverless comment system via GitHub API and dynamic particle animations.',
     github: 'https://github.com/Francisco2310/Feira'
   },
@@ -13,7 +13,7 @@
     id: 2,
     nome: 'Couple Site',
     link: 'https://site-aysha.vercel.app',
-    imagem: 'projects/couplesite.png',
+    imagem: 'projects/couplesite.webp',
     github: 'https://github.com/Francisco2310/siteAysha',
     descricao: 'Artistic focused site made for a gift to a couple, featuring animations and responsive design.'
   }
