@@ -12,7 +12,7 @@
   <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Microservices dashboard screenshot" :style="`background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 50%), url(${imagem});`">
   </div>
   <div class="absolute top-4 right-4 flex gap-2">
-  <a class="p-2 bg-background-dark/80 backdrop-blur-md rounded-lg text-white hover:text-primary transition-colors shadow-lg" target="_blank" :href="`${link}`">
+  <a aria-label="Abrir projeto em nova aba" class="p-2 bg-background-dark/80 backdrop-blur-md rounded-lg text-white hover:text-primary transition-colors shadow-lg" target="_blank" :href="`${link}`">
   <IconLink class="size-6 fill-current" />
   </a>
   </div>
