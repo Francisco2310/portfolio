@@ -1,5 +1,6 @@
 <script setup>
 import IconGithub from './icons/IconGithub.vue'
+import IconCode from './icons/IconCode.vue'
 const name = "Francisco Ribeiro"
 const role = "Full Stack Dev"
 const bio = "Specialized in building high-performance full-stack applications that help businesses scale. I focus on delivering robust, production-ready code that prioritizes your project's success."
@@ -31,7 +32,7 @@ const subtitle = "Turning Your Ideas into Scalable Digital Products."
         
         <div class="flex flex-wrap gap-4 mt-4">
           <a class="flex items-center justify-center rounded-lg h-12 px-6 bg-slate-900 dark:bg-white text-white dark:text-background-dark text-sm font-bold transition-all hover:bg-primary dark:hover:bg-primary dark:hover:text-white" href="#work">
-            <span class="material-symbols-outlined mr-2 text-sm">code</span> View Projects
+            <IconCode class="size-5 fill-current mr-2"/> View Projects
           </a>
           <a class="flex items-center justify-center rounded-lg h-12 px-6 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-white text-sm font-bold hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors" href="https://github.com/Francisco2310" target="_blank">
           <IconGithub class="size-5 fill-current mr-2" /> GitHub Profile
@@ -53,7 +54,7 @@ const subtitle = "Turning Your Ideas into Scalable Digital Products."
             <p class="pl-8 text-slate-300">this.<span class="text-blue-400">traits</span> = [<span class="text-green-400">'Problem Solver'</span>, <span class="text-green-400">'Coffee'</span>];</p>
             <p class="pl-4 text-slate-300">}</p>
             <p class="pl-4 text-purple-400">async <span class="text-blue-300">sayHello</span><span class="text-slate-300">() {</span></p>
-            <p class="pl-8 text-slate-300"><span class="text-blue-400">console</span>.<span class="text-blue-300">log</span>(<span class="text-green-400">'Hello World! 🚀'</span>);</p>
+            <p class="pl-8 text-slate-300"><span class="text-blue-400">console</span>.<span class="text-blue-300">log</span>(<span class="text-green-400">'Hello World'</span>);</p>
             <p class="pl-4 text-slate-300">}</p>
             <p class="text-purple-400">}</p>
           </div>

@@ -1,5 +1,7 @@
 <script setup>
   defineProps(['nome', 'github', 'link', 'imagem', 'descricao']);
+  import IconArrow from './icons/IconArrow.vue';
+  import IconLink from './icons/IconLink.vue';
 </script>
 
 
@@ -11,7 +13,7 @@
   </div>
   <div class="absolute top-4 right-4 flex gap-2">
   <a class="p-2 bg-background-dark/80 backdrop-blur-md rounded-lg text-white hover:text-primary transition-colors shadow-lg" target="_blank" :href="`${link}`">
-  <span class="material-symbols-outlined text-lg">link</span>
+  <IconLink class="size-6 fill-current" />
   </a>
   </div>
   </div>
@@ -24,8 +26,7 @@
   <div class="flex gap-3">
   </div>
   </div>
-  <a class="text-primary font-bold text-sm uppercase tracking-wider flex items-center gap-2 hover:translate-x-1 transition-transform" target="_blank" :href="`${github}`">
-                                  Repository <span class="material-symbols-outlined text-sm">arrow_outward</span>
+  <a class="text-primary font-bold text-sm uppercase tracking-wider flex items-center gap-2 hover:translate-x-1 transition-transform" target="_blank" :href="`${github}`">Repository <IconArrow class="size-5 fill-current mr-2" />
   </a>
   </div>
   </div>
