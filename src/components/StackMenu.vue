@@ -32,7 +32,7 @@ const updatePosition = (event) => {
   @mouseenter="isVisible = true" 
   @mouseleave="isVisible = false"
   @mousemove="updatePosition"
-  class="text-primary font-mono font-bold uppercase tracking-widest text-xs mb-4 block cursor-pointer "
+  class="text-primary font-mono font-bold uppercase tracking-widest text-xs mb-4 inline-block cursor-pointer "
 >capabilities<IconArrow class="size-4 fill-current mr-2 inline" /></div>
 
 <div 
