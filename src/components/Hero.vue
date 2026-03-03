@@ -4,7 +4,35 @@ import IconCode from './icons/IconCode.vue'
 const name = "Francisco Ribeiro"
 const role = "Full Stack Dev"
 const bio = "Specialized in building high-performance full-stack applications that help businesses scale. I focus on delivering robust, production-ready code that prioritizes your project's success."
-const subtitle = "Turning Your Ideas into Scalable Digital Products."
+const subtitles = ["Scalable Digital Products", "Robust Backend Systems", "Intuitive User Interfaces"]
+
+import { onMounted } from "vue";
+import TypeIt from "typeit";
+
+onMounted(() => {
+  const code = new TypeIt("#code-editor", {
+    speed: 10,
+    waitUntilVisible: true,
+    cursor: false,
+    lifelike: true,
+  })
+  code.go();
+
+  const title = new TypeIt("#subtitle", {
+    speed: 50,
+    waitUntilVisible: true,
+    cursor: true,
+    loop: true,
+    lifelike: true,
+  })
+
+  subtitles.forEach((subtitle, index) => {
+    title.type(subtitle).pause(2000); 
+    title.delete(null, { speed: 50 });
+  });
+  title.go();
+});
+
 </script>
 
 <template>
@@ -23,7 +51,8 @@ const subtitle = "Turning Your Ideas into Scalable Digital Products."
         <h1 class="text-slate-900 dark:text-white text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-tighter">
           {{ name }} <br/>
           <span class="text-primary">{{ role }}</span><br/>
-          <span class="text-slate-400 dark:text-slate-600 text-3xl md:text-5xl block mt-2">{{ subtitle }}</span>
+          <span class="text-slate-400 dark:text-slate-600 text-3xl md:text-5xl block mt-2">Turning your ideas into</span>
+          <span class="text-slate-400 dark:text-slate-600 text-3xl md:text-5xl block mt-2" id="subtitle"></span>
         </h1>
         
         <p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl font-light max-w-xl leading-relaxed">
@@ -41,7 +70,7 @@ const subtitle = "Turning Your Ideas into Scalable Digital Products."
       </div>
 
       <div class="hidden lg:block relative">
-        <div class="bg-code-bg rounded-xl border border-white/10 p-6 font-mono text-sm shadow-2xl">
+        <div class="bg-code-bg rounded-xl border border-white/10 p-6 font-mono text-sm shadow-2xl" id="code-editor">
           <div class="flex gap-2 mb-4">
             <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
             <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
