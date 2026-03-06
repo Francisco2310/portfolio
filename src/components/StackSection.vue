@@ -4,7 +4,6 @@ import { Autoplay, FreeMode } from 'swiper/modules';
 import Stack from './Stack.vue';
 import StackMenu from './StackMenu.vue';
 
-// Estilos do Swiper (essenciais)
 import 'swiper/css';
 import 'swiper/css/free-mode';
 

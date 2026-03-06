@@ -7,7 +7,8 @@
     link: 'https://feira-gray.vercel.app',
     imagem: 'projects/Sciencefair.webp',
     descricao: 'Science Fair showcase site featuring a serverless comment system via GitHub API and dynamic particle animations.',
-    github: 'https://github.com/Francisco2310/Feira'
+    github: 'https://github.com/Francisco2310/Feira',
+    video: 'projects/sciencefair.webm'
   },
   {
     id: 2,
@@ -15,7 +16,8 @@
     link: 'https://site-aysha.vercel.app',
     imagem: 'projects/couplesite.webp',
     github: 'https://github.com/Francisco2310/siteAysha',
-    descricao: 'Artistic focused site made for a gift to a couple, featuring animations and responsive design.'
+    descricao: 'Artistic focused site made for a gift to a couple, featuring animations and responsive design.',
+    video: 'projects/couplesite.webm'
   }
 ]
 
@@ -39,7 +41,9 @@
           :link="projeto.link"
           :imagem="projeto.imagem"
           :descricao="projeto.descricao"
-          :github="projeto.github"/>
+          :github="projeto.github"
+          :video="projeto.video"
+          />
       </div>
       </div>
     </section>
