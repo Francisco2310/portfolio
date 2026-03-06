@@ -14,6 +14,8 @@
           videoRef.value?.play();
         } else {
           videoRef.value?.pause();
+          videoRef.value?.currentTime = 0;
+          video.load();
         }
       });
     }, { 
