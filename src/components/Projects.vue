@@ -13,9 +13,11 @@
         if (entry.isIntersecting) {
           videoRef.value?.play();
         } else {
-          videoRef.value?.pause();
-          videoRef.value?.currentTime = 0;
-          video.load();
+          if (videoRef.value) {
+            videoRef.value.pause();
+            videoRef.value.currentTime = 0;
+            videoRef.value.load();
+          }
         }
       });
     }, { 
